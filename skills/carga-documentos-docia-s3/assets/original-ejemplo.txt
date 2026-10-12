@@ -1,0 +1,3 @@
+Programación sintética de Sistemas de Big Data.
+Curso 2026-2027.
+Este archivo sirve únicamente para demostrar el enlace entre original, ficha y SHA-256.

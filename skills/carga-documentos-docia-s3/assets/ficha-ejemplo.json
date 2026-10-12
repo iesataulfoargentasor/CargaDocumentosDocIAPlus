@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "6dfc5d70-4155-4ab3-9a26-92591781124b",
+  "titulo": "Programación sintética de Sistemas de Big Data",
+  "centro": "Centro de demostración",
+  "ensenanza": "IABD",
+  "modulo": "SBD",
+  "curso_academico": "2026-2027",
+  "estado_declarado": "borrador",
+  "procedencia": "Material sintético de aula",
+  "observaciones": "Ejemplo de contrato; no representa un objeto subido a AWS.",
+  "archivo": {
+    "clave_s3": "programaciones/originales/6dfc5d70-4155-4ab3-9a26-92591781124b/original.txt",
+    "nombre_original": "original-ejemplo.txt",
+    "tipo_mime": "text/plain",
+    "tamano_bytes": 156,
+    "sha256": "4340d70c9b02c08dd107daddb326151ddb0e11e5dec2278ff793a837a9e3696d"
+  },
+  "relacion": null,
+  "registro": {
+    "usuario": "docente-demo",
+    "fecha": "2026-10-12T10:00:00+00:00",
+    "estado": "guardado"
+  }
+}

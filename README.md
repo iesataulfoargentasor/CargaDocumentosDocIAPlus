@@ -4,6 +4,19 @@ Aplicación web educativa para que usuarios autorizados incorporen programacione
 
 **Alcance actual:** autenticación local, subida validada, detección de archivos idénticos, aviso de posibles revisiones, catálogo y descarga íntegra. **No extrae ni trocea texto, no genera embeddings y no publica documentos en ChromaDB.** El estado “guardado” confirma la carga técnica; “borrador/final” es una declaración del usuario, no una aprobación institucional.
 
+## Skill para implementar la aplicación con un asistente de IA
+
+La [skill completa en Markdown](docs/SKILL_CargaDocumentosDocIAPlus.md) describe cómo reconstruir esta aplicación conservando su comportamiento y organizándola con **MVC y arquitectura hexagonal pragmática**. Se puede adjuntar como un único archivo a un asistente de IA.
+
+Para herramientas que admiten carpetas de skills, utiliza [SKILL.md y sus referencias](skills/carga-documentos-docia-s3/SKILL.md). Incluye requisitos, validaciones, esquema S3, puertos y adaptadores, interfaz, seguridad, despliegue AWS Academy, cuaderno Colab y 46 casos de aceptación. La ficha de ejemplo utiliza un TXT sintético incluido en el paquete, con tamaño y SHA-256 verificables.
+
+La skill distingue la arquitectura actual de las mejoras propuestas. Añadir esta documentación no refactoriza la aplicación ni incorpora OCR, extracción, embeddings o RAG. Para mantener la edición completa después de editar las fuentes:
+
+```bash
+python skills/carga-documentos-docia-s3/scripts/build_reference.py
+python skills/carga-documentos-docia-s3/scripts/build_reference.py --check
+```
+
 ## Arquitectura
 
 ```mermaid
